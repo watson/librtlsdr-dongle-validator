@@ -45,7 +45,7 @@ const knownDevices = [
   [0x1f4d, 0xd803, 'PROlectrix DV107669']
 ]
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', async () => {
   const button = document.getElementById('request-device')
   const result = document.getElementById('result')
 
