@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       console.log(device)
       let known = findKnownDevice(device)
       known = known
-        ? `Device is compatible with librtlsdr (name: ${known}).`
+        ? `Device is compatible with librtlsdr (type: ${known}).`
         : `Device doesn't seem to be compatible with librtlsdr.`
       result.innerHTML = `
         <h2>Compatibility</h2>
