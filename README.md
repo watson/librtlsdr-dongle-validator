@@ -11,10 +11,10 @@ library.
 1. Click the "Select USB Device" button
 1. In the popup select the device you wish to validate and click
    "Connect"
-   ![Google Chrome WebUSB device pairing window](pair.png)
+   <img src="https://github.com/watson/librtlsdr-dongle-validator/raw/master/pair.png" width="500">
 1. You should now see the device details along with a message indicating
    if the device is compatible or not
-   ![Post pairing](paired.png)
+   <img src="https://github.com/watson/librtlsdr-dongle-validator/raw/master/paired.png" width="500">
 
 ## License
 
